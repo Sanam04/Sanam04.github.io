@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanampreet Kaur - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+   </head>
+
+
+<body>
+ <!-- Particles Background -->
+<div id="particles-js"></div>
+
+<!--navbar-->
+<nav class="unique-navbar">
+    <div class="nav-logo">SK</div>
+    <ul class="nav-links">
+        <li><a href="#summary">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle">&#9776;</div>
+</nav>
+
+
+<!--Summarizing Statement-->
+<section id="summary">
+    <div class="summary-card">
+        <h1>Hi, I'm <span class="animated-name"></span></h1>
+        <h3 class="animated-titles"></h3>
+        <p class="lead animated-paragraph">
+            Motivated Computer Systems Technician – Software Support student with hands-on experience
+            in programming, web development, database management, and cloud technologies.
+        </p>
+       
+    </div>
+</section>
+
+
+<!--Edcation section-->
+<section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="education-cards">
+
+              <div class="education-card">
+            <h3>Computer Systems Technician – Software Support</h3>
+            <p><strong>Mohawk College, Hamilton, ON</strong></p>
+            <p>Sept 2023 – Dec 2025</p>
+           <p>Gained hands-on experience with Python, Java, SQL, and Microsoft Azure through practical labs and projects.</p>
+
+        </div>
+
+    </div>
+</section>
+
+<!--Skiils Section-->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-container">
+
+        <!-- Programming Skills -->
+        <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h3>Programming</h3>
+            <div class="skill-bar-container">
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="90%">Python</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="80%">Java</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="85%">C#</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="80%">JavaScript</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-width="75%">PHP</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Database Skills -->
+        <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <h3>Databases</h3>
+            <div class="skill-tags">
+                <span class="tag">MySQL</span>
+                <span class="tag">MS SQL Server</span>
+            </div>
+        </div>
+
+        <!-- UI/UX Skills -->
+        <div class="skill-card">
+            <i class="fas fa-paint-brush skill-icon"></i>
+            <h3>UI/UX Design</h3>
+            <div class="skill-tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Adobe XD</span>
+                <span class="tag">Accessibility</span>
+            </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card">
+            <i class="fas fa-users skill-icon"></i>
+            <h3>Soft Skills</h3>
+            <div class="skill-tags">
+                <span class="tag">Communication</span>
+                <span class="tag">Teamwork</span>
+                <span class="tag">Problem-solving</span>
+                <span class="tag">Time Management</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Projects section -->
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <!-- Meal Planner -->
+        <div class="project-card">
+            <div class="project-card-inner">
+                <div class="card-front" style="background-image: url('images/meal-generator.jpg');">
+                    <h3>Meal Planner - AI based</h3>
+                    <p>Jul 2025</p>
+                </div>
+                <div class="card-back">
+                    <p>Backend API using Python and Flask integrated with AI APIs to generate personalized daily meal plans in natural language. Calculates users' calorie needs and generates easy-to-follow plans tailored to individual dietary preferences and goals.</p>
+                    <p><strong>Technologies:</strong> Python, Flask, OpenAI GPT, Google Gemini API, Streamlit</p>
+                    <p><strong>Skills:</strong> AI, API, RESTful API Design, Python Libraries, Backend Development</p>
+                    <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/details/projects/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SolutionBot -->
+        <div class="project-card">
+            <div class="project-card-inner">
+                <div class="card-front" style="background-image: url('images/solutionbot.jpg');">
+                    <h3>SolutionBot — Offline IT Chatbot</h3>
+                    <p>May 2025 - Jun 2025</p>
+                </div>
+                <div class="card-back">
+                    <p>Interactive chatbot web app providing solutions to common IT issues offline. Dropdown menu with 15+ troubleshooting topics, plus a contact form for human assistance.</p>
+                    <p><strong>Technologies:</strong> Python, Flask, HTML/CSS, Render</p>
+                    <p><strong>Skills:</strong> Full-Stack Development, Flask, Cloud Deployment, UI/UX Design</p>
+                    <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/details/projects/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Automated Email Sender -->
+        <div class="project-card">
+            <div class="project-card-inner">
+                <div class="card-front" style="background-image: url('images/email-sender.jpg');">
+                    <h3>Automated Email Sender</h3>
+                    <p>Feb 2025</p>
+                </div>
+                <div class="card-back">
+                    <p>Python app automating personalized emails to multiple recipients using smtplib and schedule. Hosted on PythonAnywhere for reliability.</p>
+                    <p><strong>Skills:</strong> Python, Data handling, Email Automation, Web Deployment</p>
+                    <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/details/projects/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Restaurant Management System -->
+        <div class="project-card">
+            <div class="project-card-inner">
+                <div class="card-front" style="background-image: url('images/restaurant.jpg');">
+                    <h3>Restaurant Management System</h3>
+                    <p>Dec 2024 - Jan 2025</p>
+                </div>
+                <div class="card-back">
+                    <p>System to manage restaurant operations: employee management, room booking, driver allocation, secure login/logout. Hosted on GitHub.</p>
+                    <p><strong>Technologies:</strong> Java, Java Swing, MySQL</p>
+                    <p><strong>Skills:</strong> OOP, Backend Development, GitHub</p>
+                    <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/details/projects/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bird Flight Adventure -->
+        <div class="project-card">
+            <div class="project-card-inner">
+                <div class="card-front" style="background-image: url('images/bird-flight.jpg');">
+                    <h3>Bird Flight Adventure</h3>
+                    <p>Jun 2024</p>
+                </div>
+                <div class="card-back">
+                    <p>Browser-based game where players control a bird navigating obstacles and collecting points.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <p><strong>Skills:</strong> Back-End Web Development, Critical Thinking, GitHub</p>
+                    <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/details/projects/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Resume section-->
+
+<section id="resume" class="section">
+    <h2 class="section-title">Resume</h2>
+    <p>Click below to view or download my resume</p>
+    <a href="SanampreetKaur_Resume.pdf" target="_blank" class="resume-btn">
+        <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View Resume
+    </a>
+</section>
+
+<!--Contact section-->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Feel free to reach out via the form below or connect on social media.</p>
+
+    <div class="contact-container">
+       <form class="contact-form" action="mailto:sanampreet.kaur2@mohawkcollege.ca" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-btn">Send Message</button>
+            <p id="form-message" class="form-message"></p>
+        </form>
+    </div>
+</section>
+
+
+        <div class="contact-links">
+            <a href="mailto:sanampreet.kaur2@mohawkcollege.ca"><i class="fas fa-envelope"></i> Email</a>
+            <a href="tel:+3658336193"><i class="fas fa-phone"></i> +1 365 833 6193</a>
+            <a href="https://www.linkedin.com/in/sanampreet-kaur-0134892a7/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Sanam04" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+  <p>© 2025 Sanampreet Kaur | All Rights Reserved</p>
+</footer>
+
+ <!--custom js-->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
